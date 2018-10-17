@@ -1,0 +1,498 @@
+[
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T11:26:26.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 1,
+    "SALES_DEPT_ID": 1,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 1,
+    "SALES_TERRITORY_HIERARCHY_NAME": "SAMS CLUB",
+    "SECTOR_ID": 1
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T11:26:45.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 2,
+    "SALES_DEPT_ID": 1,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 2,
+    "SALES_TERRITORY_HIERARCHY_NAME": "WAL MART",
+    "SECTOR_ID": 2
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T11:26:59.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 3,
+    "SALES_DEPT_ID": 2,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 3,
+    "SALES_TERRITORY_HIERARCHY_NAME": "BJS",
+    "SECTOR_ID": 3
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T11:27:10.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 4,
+    "SALES_DEPT_ID": 2,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 4,
+    "SALES_TERRITORY_HIERARCHY_NAME": "COSTCO",
+    "SECTOR_ID": 4
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T11:27:37.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 5,
+    "SALES_DEPT_ID": 2,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 5,
+    "SALES_TERRITORY_HIERARCHY_NAME": "DOLLAR",
+    "SECTOR_ID": 5
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T11:28:12.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 6,
+    "SALES_DEPT_ID": 2,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 6,
+    "SALES_TERRITORY_HIERARCHY_NAME": "DOLLAR",
+    "SECTOR_ID": 6
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T11:28:41.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 7,
+    "SALES_DEPT_ID": 2,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 7,
+    "SALES_TERRITORY_HIERARCHY_NAME": "LOWES",
+    "SECTOR_ID": 6
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T11:29:00.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 7,
+    "SALES_DEPT_ID": 2,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 8,
+    "SALES_TERRITORY_HIERARCHY_NAME": "RETAIL HOUSE ACCT",
+    "SECTOR_ID": 6
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T11:29:20.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 8,
+    "SALES_DEPT_ID": 2,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 9,
+    "SALES_TERRITORY_HIERARCHY_NAME": "DOLLAR",
+    "SECTOR_ID": 6
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T11:29:35.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 9,
+    "SALES_DEPT_ID": 2,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 10,
+    "SALES_TERRITORY_HIERARCHY_NAME": "TARGET",
+    "SECTOR_ID": 7
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-21T12:37:11.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-21T12:37:11.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 13,
+    "SALES_DEPT_ID": 3,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 14,
+    "SALES_TERRITORY_HIERARCHY_NAME": "ACOSTA DRUG",
+    "SECTOR_ID": 8
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-21T12:37:11.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-21T12:37:11.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 26,
+    "SALES_DEPT_ID": 3,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 15,
+    "SALES_TERRITORY_HIERARCHY_NAME": "ALBERTSONS CTM",
+    "SECTOR_ID": 12
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-21T12:37:11.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-21T12:37:11.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 23,
+    "SALES_DEPT_ID": 3,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 16,
+    "SALES_TERRITORY_HIERARCHY_NAME": "HEB CTM",
+    "SECTOR_ID": 11
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-21T12:37:12.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-21T12:37:12.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 18,
+    "SALES_DEPT_ID": 3,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 17,
+    "SALES_TERRITORY_HIERARCHY_NAME": "KROGER",
+    "SECTOR_ID": 10
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-21T12:37:12.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-21T12:37:12.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 24,
+    "SALES_DEPT_ID": 3,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 18,
+    "SALES_TERRITORY_HIERARCHY_NAME": "MEIJER CTM",
+    "SECTOR_ID": 11
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-21T12:37:12.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-21T12:37:12.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 35,
+    "SALES_DEPT_ID": 4,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 19,
+    "SALES_TERRITORY_HIERARCHY_NAME": "RETAIL INACTIVE",
+    "SECTOR_ID": 14
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-21T12:37:12.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-21T12:37:12.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 25,
+    "SALES_DEPT_ID": 3,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 20,
+    "SALES_TERRITORY_HIERARCHY_NAME": "TAMPA-PUBLIX",
+    "SECTOR_ID": 11
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-21T12:47:01.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-21T12:47:01.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 39,
+    "SALES_DEPT_ID": 3,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 114,
+    "SALES_TERRITORY_HIERARCHY_NAME": "AN-Territory 1",
+    "SECTOR_ID": 10
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-21T12:47:01.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-21T12:47:01.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 39,
+    "SALES_DEPT_ID": 3,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 115,
+    "SALES_TERRITORY_HIERARCHY_NAME": "AN-Territory 2",
+    "SECTOR_ID": 10
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-21T12:47:01.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-21T12:47:01.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 39,
+    "SALES_DEPT_ID": 3,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 116,
+    "SALES_TERRITORY_HIERARCHY_NAME": "AN-Territory 3",
+    "SECTOR_ID": 10
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-21T12:47:01.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-21T12:47:01.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 39,
+    "SALES_DEPT_ID": 3,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 117,
+    "SALES_TERRITORY_HIERARCHY_NAME": "IS - Territory 10",
+    "SECTOR_ID": 10
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-21T12:47:01.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-21T12:47:01.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 39,
+    "SALES_DEPT_ID": 3,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 118,
+    "SALES_TERRITORY_HIERARCHY_NAME": "IS - Territory 2",
+    "SECTOR_ID": 10
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-21T12:47:01.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-21T12:47:01.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 39,
+    "SALES_DEPT_ID": 3,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 119,
+    "SALES_TERRITORY_HIERARCHY_NAME": "IS - Territory 3",
+    "SECTOR_ID": 10
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-21T12:47:01.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-21T12:47:01.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 39,
+    "SALES_DEPT_ID": 3,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 120,
+    "SALES_TERRITORY_HIERARCHY_NAME": "IS - Territory 4",
+    "SECTOR_ID": 10
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-21T12:47:01.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-21T12:47:01.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 39,
+    "SALES_DEPT_ID": 3,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 121,
+    "SALES_TERRITORY_HIERARCHY_NAME": "IS - Territory 5",
+    "SECTOR_ID": 10
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-21T12:47:01.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-21T12:47:01.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 39,
+    "SALES_DEPT_ID": 3,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 122,
+    "SALES_TERRITORY_HIERARCHY_NAME": "IS - Territory 6",
+    "SECTOR_ID": 10
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-21T12:47:01.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-21T12:47:01.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 39,
+    "SALES_DEPT_ID": 3,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 123,
+    "SALES_TERRITORY_HIERARCHY_NAME": "IS - Territory 7",
+    "SECTOR_ID": 10
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-21T12:47:01.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-21T12:47:01.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 39,
+    "SALES_DEPT_ID": 3,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 124,
+    "SALES_TERRITORY_HIERARCHY_NAME": "IS - Territory 8",
+    "SECTOR_ID": 10
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-21T12:47:01.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-21T12:47:01.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 39,
+    "SALES_DEPT_ID": 3,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 125,
+    "SALES_TERRITORY_HIERARCHY_NAME": "NATRL-ALT CH",
+    "SECTOR_ID": 10
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-21T12:47:01.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-21T12:47:01.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 38,
+    "SALES_DEPT_ID": 6,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 126,
+    "SALES_TERRITORY_HIERARCHY_NAME": "RETAIL HOUSE ACCT",
+    "SECTOR_ID": 16
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-21T13:00:11.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-21T13:00:11.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION_ID": 15,
+    "SALES_DEPT_ID": 3,
+    "SALES_TERRITORY_HIERARCHY_EXTI": null,
+    "SALES_TERRITORY_HIERARCHY_ID": 214,
+    "SALES_TERRITORY_HIERARCHY_NAME": "WAKEFERN",
+    "SECTOR_ID": 8
+  }
+]

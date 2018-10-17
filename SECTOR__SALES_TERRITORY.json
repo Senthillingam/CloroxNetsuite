@@ -1,0 +1,212 @@
+[
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T10:59:54.000 UTC"
+    },
+    "PARENT_ID": null,
+    "SALES_DEPT_ID": 1,
+    "SECTOR__SALES_TERRITORY_EXTID": null,
+    "SECTOR__SALES_TERRITORY_ID": 1,
+    "SECTOR__SALES_TERRITORY_NAME": "SAMS CLUB"
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T11:00:15.000 UTC"
+    },
+    "PARENT_ID": null,
+    "SALES_DEPT_ID": 1,
+    "SECTOR__SALES_TERRITORY_EXTID": null,
+    "SECTOR__SALES_TERRITORY_ID": 2,
+    "SECTOR__SALES_TERRITORY_NAME": "WAL MART"
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T11:00:26.000 UTC"
+    },
+    "PARENT_ID": null,
+    "SALES_DEPT_ID": 2,
+    "SECTOR__SALES_TERRITORY_EXTID": null,
+    "SECTOR__SALES_TERRITORY_ID": 3,
+    "SECTOR__SALES_TERRITORY_NAME": "BJS"
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T11:00:35.000 UTC"
+    },
+    "PARENT_ID": null,
+    "SALES_DEPT_ID": 2,
+    "SECTOR__SALES_TERRITORY_EXTID": null,
+    "SECTOR__SALES_TERRITORY_ID": 4,
+    "SECTOR__SALES_TERRITORY_NAME": "COSTCO"
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T11:00:50.000 UTC"
+    },
+    "PARENT_ID": null,
+    "SALES_DEPT_ID": 2,
+    "SECTOR__SALES_TERRITORY_EXTID": null,
+    "SECTOR__SALES_TERRITORY_ID": 5,
+    "SECTOR__SALES_TERRITORY_NAME": "DOLLAR GENERAL"
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T11:01:04.000 UTC"
+    },
+    "PARENT_ID": null,
+    "SALES_DEPT_ID": 2,
+    "SECTOR__SALES_TERRITORY_EXTID": null,
+    "SECTOR__SALES_TERRITORY_ID": 6,
+    "SECTOR__SALES_TERRITORY_NAME": "DOLLAR TREE/LOWES"
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T11:01:19.000 UTC"
+    },
+    "PARENT_ID": null,
+    "SALES_DEPT_ID": 2,
+    "SECTOR__SALES_TERRITORY_EXTID": null,
+    "SECTOR__SALES_TERRITORY_ID": 7,
+    "SECTOR__SALES_TERRITORY_NAME": "TARGET TEAM"
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:26:27.000 UTC"
+    },
+    "PARENT_ID": null,
+    "SALES_DEPT_ID": 3,
+    "SECTOR__SALES_TERRITORY_EXTID": null,
+    "SECTOR__SALES_TERRITORY_ID": 8,
+    "SECTOR__SALES_TERRITORY_NAME": "EAST BC"
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:26:55.000 UTC"
+    },
+    "PARENT_ID": null,
+    "SALES_DEPT_ID": 3,
+    "SECTOR__SALES_TERRITORY_EXTID": null,
+    "SECTOR__SALES_TERRITORY_ID": 9,
+    "SECTOR__SALES_TERRITORY_NAME": "HD/ALT STRAT CHANNEL"
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:27:19.000 UTC"
+    },
+    "PARENT_ID": null,
+    "SALES_DEPT_ID": 3,
+    "SECTOR__SALES_TERRITORY_EXTID": null,
+    "SECTOR__SALES_TERRITORY_ID": 10,
+    "SECTOR__SALES_TERRITORY_NAME": "KROGER/NATRL-ALT CH"
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:27:37.000 UTC"
+    },
+    "PARENT_ID": null,
+    "SALES_DEPT_ID": 3,
+    "SECTOR__SALES_TERRITORY_EXTID": null,
+    "SECTOR__SALES_TERRITORY_ID": 11,
+    "SECTOR__SALES_TERRITORY_NAME": "STRATEGIC GROCERY"
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:27:52.000 UTC"
+    },
+    "PARENT_ID": null,
+    "SALES_DEPT_ID": 3,
+    "SECTOR__SALES_TERRITORY_EXTID": null,
+    "SECTOR__SALES_TERRITORY_ID": 12,
+    "SECTOR__SALES_TERRITORY_NAME": "WEST BC"
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:28:05.000 UTC"
+    },
+    "PARENT_ID": null,
+    "SALES_DEPT_ID": 3,
+    "SECTOR__SALES_TERRITORY_EXTID": null,
+    "SECTOR__SALES_TERRITORY_ID": 13,
+    "SECTOR__SALES_TERRITORY_NAME": "WHITESPACE"
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:28:20.000 UTC"
+    },
+    "PARENT_ID": null,
+    "SALES_DEPT_ID": 4,
+    "SECTOR__SALES_TERRITORY_EXTID": null,
+    "SECTOR__SALES_TERRITORY_ID": 14,
+    "SECTOR__SALES_TERRITORY_NAME": "RETAIL MISC"
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-21T12:42:15.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-21T12:42:15.000 UTC"
+    },
+    "PARENT_ID": null,
+    "SALES_DEPT_ID": 6,
+    "SECTOR__SALES_TERRITORY_EXTID": null,
+    "SECTOR__SALES_TERRITORY_ID": 16,
+    "SECTOR__SALES_TERRITORY_NAME": "E-COMMERCE"
+  }
+]

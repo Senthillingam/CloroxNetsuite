@@ -1,0 +1,307 @@
+BANK FILE TEMPLATE
+
+
+
+
+
+
+<#-- Generate payment file based on bank record ACH or CHK-->
+<#assign bankRecord = pfa.custrecord_2663_bank_account>
+<#if bankRecord == 'WFB AP ACH Bank clearing'>
+<#-- template building -->
+<#assign aDateTime = .now>
+<#assign aDate = aDateTime?date>
+<#assign recordCount = 0>
+<#assign timeStamp = pfa.custrecord_2663_file_creation_timestamp>
+<#assign timeStampDate = timeStamp?date>
+<#-- Company Address Information -->
+<#assign cAddress1 = 'Accounts Payable Department'>
+<#assign cAddress2 = '4900 Johnson Drive, A1-120'>
+<#assign cAddress3 = ''>
+<#assign cCity = 'Pleasanton'>
+<#assign cState = 'CA'>
+<#assign cZip = '94588'>
+<#assign cCountry = 'United States'>
+#OUTPUT START#
+<#-- header record -->
+HD${setLength(pfa.name,15)}${timeStampDate?iso_utc}
+<#list payments as payment>
+<#assign ebank = ebanks[payment_index]> 
+<#assign entity = entities[payment_index]>
+<#-- Getting Values based on Payment method -->
+<#assign OBankIdType = ''>
+<#assign blank = ''> 
+<#function getReferenceAmount payment accountType transaction> 
+<#assign tranAmount = 0 > 
+<#if payment.currency?has_content>
+<#if accountType == "Bank">
+<#assign tranAmount = transaction.appliedtoforeignamount>
+<#else>
+<#assign tranAmount = transaction.applyingforeignamount>
+</#if>
+<#else>
+<#if accountType == "Bank">
+<#assign tranAmount = transaction.appliedtolinkamount>
+<#else>
+<#assign tranAmount = transaction.applyinglinkamount>
+</#if>
+</#if> 
+<#if (tranAmount < 0)>
+<#assign tranAmount = tranAmount * -1>
+</#if>
+<#return tranAmount>
+</#function>
+<#assign amount = getAmount(payment)>
+<#assign rpAccType = ebank.custrecord_2663_entity_bank_acct_type>
+<#if rpAccType == 'Savings'>
+<#assign rpAccTypeVal = 'S'>
+<#else>
+<#assign rpAccTypeVal = 'D'>
+</#if>
+<#-- payment record -->
+PY${setLength('DAC',3)}${setLength('C',1)}${setLength(payment.tranid,30)}${setLength(aDate?iso_utc,10)}${setLength(blank,10)}${setLength(blank,10)}${setLength(formatAmount(payment.total,"dec"),19)}${setLength(getCurrencySymbol(payment.currency),3)}D${setLength(cbank.custpage_eft_custrecord_2663_acct_num,35)}${setLength(blank,3)}ABA${setLength(cbank.custpage_eft_custrecord_2663_bank_num,11)}${setLength(rpAccTypeVal,1)}${setLength(ebank.custrecord_2663_entity_acct_no,35)}${setLength(getCurrencySymbol(payment.currency),3)}ABA${setLength(ebank.custrecord_2663_entity_bank_no,11)}${setLength(blank,35)}${setLength('U',1)}${setLength(blank,1)}${setLength('10000RNEW',60)}${setLength(blank,1)}${setLength(blank,15)}${setLength(blank,160)}${setLength(blank,19)}${setLength(blank,1)}${setLength(blank,1)}
+<#-- Payment name and address record – originating party -->
+PAPR${setLength(companyinformation.companyname,60)}${setLength(blank,60)}${setLength(blank,50)}${setLength(cAddress1,55)}${setLength(cAddress2,55)}${setLength(cAddress3,55)}${setLength(cCity,30)}${setLength(cState,3)}${setLength(cZip,9)}${setLength(getCountryCode(cCountry),2)}${setLength(cCountry,30)}${setLength(blank,80)}${setLength(blank,10)}${setLength(blank,3)}
+<#-- Payment name and address record – originating bank -->
+PAO1${setLength('Wells Fargo Bank',60)}${setLength(blank,60)}${setLength(blank,50)}${setLength(blank,55)}${setLength(blank,55)}${setLength(blank,55)}${setLength(blank,30)}${setLength(blank,3)}${setLength(blank,9)}${setLength(blank,2)}${setLength(blank,30)}${setLength(blank,80)}${setLength(blank,10)}
+<#-- Payment name and address record – receiving party -->
+PAPE${setLength(entity.companyname,60)}${setLength(blank,60)}${setLength(entity.entityid,50)}${setLength(entity.billaddress1,55)}${setLength(entity.billaddress2,55)}${setLength(blank,55)}${setLength(entity.billcity,30)}${setLength(entity.billstate,3)}${setLength(entity.billzipcode?replace("-",""),9)}${setLength(getCountryCode(entity.billcountry),2)}${setLength(entity.billcountry,30)}${setLength(blank,80)}${setLength(blank,10)}
+<#-- Payment name and address record – receiving bank -->
+PARB${setLength(ebank.custrecord_cc_vendor_bankname,60)}${setLength(blank,60)}${setLength(blank,50)}${setLength(blank,55)}${setLength(blank,55)}${setLength(blank,55)}${setLength(blank,30)}${setLength(blank,3)}${setLength(blank,9)}${setLength(blank,2)}${setLength(blank,30)}${setLength(blank,80)}${setLength(blank,10)}
+<#-- Payment name and address record – ordering or vendor party -->
+<#-- TBD I don’t think we need this -->
+<#-- Payment name and address record – overnight delivery party -->
+<#-- Not required for DAC -->
+<#-- Supplemental check record -->
+<#-- Not required for DAC-->
+<#-- Supplemental ACH record -->
+AC${setLength('1410617000',10)}${setLength(blank,15)}${setLength(blank,2)}${setLength(ebank.custrecord_cc_ach_format_protocol,4)}${setLength(blank,3)}${setLength(blank,3)}${setLength(blank,11)}${setLength(blank,3)}${setLength(blank,11)}${setLength(blank,35)}${setLength(blank,4)}${setLength(blank,4)}
+<#-- Document delivery record -->
+<#assign emailAddPayment = entity.custentity_2663_email_address_notif>
+<#if  emailAddPayment != ''>
+<#assign deliveryType = 'EMAIL'>
+<#assign deliveryEmail = entity.custentity_2663_email_address_notif>
+<#assign vAddress1 = ''>
+<#assign vAddress2 = ''>
+<#assign vCity = ''>
+<#assign vState = ''>
+<#assign vZip = ''>
+<#assign vCountry = ''>
+<#assign EDDDeliveryCode = ''>
+<#else>
+<#assign deliveryType = 'DOC'>
+<#assign deliveryEmail = ''>
+<#assign vAddress1 = entity.billaddress1>
+<#assign vAddress2 = entity.billaddress2>
+<#assign vCity = entity.billcity>
+<#assign vState = entity.billstate>
+<#assign vZip = entity.billzipcode?replace("-","")>
+<#assign vCountry = entity.billcountry>
+<#assign EDDDeliveryCode = '1'>
+</#if>
+DD${setLength('PDF',5)}${setLength(deliveryType,5)}${setLength(entity.companyname,60)}${setLength(blank,12)}${setLength(deliveryEmail,60)}${setLength(blank,60)}${setLength(blank,60)}${setLength(blank,6)}${setLength(blank,255)}${setLength(blank,60)}${setLength(blank,255)}${setLength(blank,60)}${setLength(vAddress1,55)}${setLength(vAddress2,55)}${setLength(vCity,55)}${setLength(vState,3)}${setLength(vZip,9)}${setLength(vCountry,30)}${setLength(EDDDeliveryCode,1)}${setLength(blank,55)}${setLength(blank,80)}${setLength(blank,80)}${setLength(blank,80)}
+<#-- Invoice record -->
+<#list transHash[payment.internalid] as transaction>
+<#assign tranType = transaction.recordtype>
+<#assign tranTypeVal='IV'>
+<#if tranType=='invoice'><#assign tranTypeVal='IV'></#if><#if tranType=='creditmemo'><#assign tranTypeVal='CM'></#if>
+<#assign discountAmount = transaction.custbody_disc_amt_avail>
+<#assign invNetAmount = transaction.total - discountAmount>
+<#if (getReferenceAmount(payment, pfa.custrecord_2663_account.type, transaction)!=discountAmount)>
+<#assign discountAmount = formatAmount(discountAmount,"dec")>
+<#if (discountAmount != '0.00' || discountAmount != '0.0'|| discountAmount != '0')>
+<#assign discountAmount = '-'+discountAmount>
+</#if>
+IN${setLength(transaction.tranid,100)}${setLength(transaction.custbody_rnl_invoice_date?iso_utc,10)}${setLength(blank,80)}${setLength(formatAmount(invNetAmount,"dec"),18)}${setLength(formatAmount(transaction.total,"dec"),18)}${setLength(discountAmount,18)}${setLength(transaction.custbody_cc_po_number,15)}${setLength(tranTypeVal,3)}${setLength(blank,70)}${setLength(blank,80)}${setLength(blank,35)}${setLength(blank,35)}${setLength(blank,35)}
+<#assign creditMemoFromBill = transaction.custbody_rnl_credit_memo_details>
+<#if creditMemoFromBill?has_content>
+<#assign lineCreditMemo =''>
+<#assign count = 0>
+<#list creditMemoFromBill?split(";") as record>
+<#list record?split(",") as creditStr>
+<#if count == 0>
+<#assign lineCreditMemo = lineCreditMemo + creditStr>
+</#if>
+<#if count == 1>
+<#assign lineCreditMemo = lineCreditMemo + setLength(creditStr,100)>
+</#if>
+<#if count == 2>
+<#assign lineCreditMemo = lineCreditMemo + setLength(creditStr,10)+setLength(blank,80)>
+</#if>
+<#if count == 3>
+<#assign lineCreditMemo = lineCreditMemo + setLength(creditStr,18)>
+</#if>
+<#if count == 4>
+<#assign lineCreditMemo = lineCreditMemo + setLength(creditStr,18)+setLength(blank,18)+setLength(blank,15)>
+</#if>
+<#if count == 5>
+<#assign lineCreditMemo = lineCreditMemo + setLength(creditStr,3)+setLength(blank,70)+setLength(blank,80)+setLength(blank,35)+setLength(blank,35)+setLength(blank,35)>
+</#if>
+<#assign count = count+1>
+</#list>
+${lineCreditMemo}
+<#assign lineCreditMemo =''>
+<#assign count = 0>
+</#list>
+</#if>
+</#if>
+</#list>
+<#-- Invoice adjustment record -->
+<#-- not applicable for us -->
+<#assign recordCount = recordCount + 1>
+</#list>
+<#-- Trailer record -->
+TR${setPadding(recordCount,"left","0",8)}${setLength(formatAmount(computeTotalAmount(payments,false),"dec"),21)}
+#OUTPUT END#
+<#else>
+<#-- template building -->
+<#assign aDateTime = .now>
+<#assign aDate = aDateTime?date>
+<#assign recordCount = 0>
+<#assign timeStamp = pfa.custrecord_2663_file_creation_timestamp>
+<#assign timeStampDate = timeStamp?date>
+<#-- Company Address Information -->
+<#assign cAddress1 = 'Accounts Payable Department'>
+<#assign cAddress2 = '4900 Johnson Drive, A1-120'>
+<#assign cAddress3 = ''>
+<#assign cCity = 'Pleasanton'>
+<#assign cState = 'CA'>
+<#assign cZip = '94588'>
+<#assign cCountry = 'United States'>
+#OUTPUT START#
+<#-- header record -->
+HD${setLength(pfa.name,15)}${timeStampDate?iso_utc}
+<#list payments as payment>
+<#assign ebank = ebanks[payment_index]> 
+<#assign entity = entities[payment_index]>
+<#-- Getting Values based on Payment method -->
+<#assign OBankIdType = ''>
+<#assign blank = ''> 
+<#function getReferenceAmount payment accountType transaction> 
+<#assign tranAmount = 0 > 
+<#if payment.currency?has_content>
+<#if accountType == "Bank">
+<#assign tranAmount = transaction.appliedtoforeignamount>
+<#else>
+<#assign tranAmount = transaction.applyingforeignamount>
+</#if>
+<#else>
+<#if accountType == "Bank"> 
+<#assign tranAmount = transaction.appliedtolinkamount>
+<#else>
+<#assign tranAmount = transaction.applyinglinkamount>
+</#if>
+</#if> 
+<#if (tranAmount < 0)>
+<#assign tranAmount = tranAmount * -1>
+</#if>
+<#return tranAmount>
+</#function>
+<#assign amount = getAmount(payment)>
+<#-- payment record -->
+PY${setLength('CHK',3)}${setLength('C',1)}${setLength(payment.tranid,30)}${setLength(aDate?iso_utc,10)}${setLength(blank,10)}${setLength(blank,10)}${setLength(formatAmount(payment.total,"dec"),19)}${setLength(getCurrencySymbol(payment.currency),3)}D${setLength(cbank.custpage_eft_custrecord_2663_acct_num,35)}${setLength(blank,3)}ABA${setLength(cbank.custpage_eft_custrecord_2663_bank_num,11)}${setLength(blank,1)}${setLength(blank,35)}${setLength(blank,3)}${setLength(blank,3)}${setLength(blank,11)}${setLength(blank,35)}${setLength(blank,1)}${setLength(blank,1)}${setLength(blank,60)}${setLength(blank,1)}${setLength(blank,15)}${setLength(blank,160)}${setLength(blank,19)}${setLength(blank,1)}${setLength(blank,1)}
+<#-- Payment name and address record – originating party -->
+PAPR${setLength(companyinformation.companyname,60)}${setLength(blank,60)}${setLength(blank,50)}${setLength(cAddress1,55)}${setLength(cAddress2,55)}${setLength(cAddress3,55)}${setLength(cCity,30)}${setLength(cState,3)}${setLength(cZip,9)}${setLength(getCountryCode(cCountry),2)}${setLength(cCountry,30)}${setLength(blank,80)}${setLength(blank,10)}${setLength(blank,3)}
+<#-- Payment name and address record – originating bank -->
+PAO1${setLength('Wells Fargo Bank',60)}${setLength(blank,60)}${setLength(blank,50)}${setLength(blank,55)}${setLength(blank,55)}${setLength(blank,55)}${setLength(blank,30)}${setLength(blank,3)}${setLength(blank,9)}${setLength(blank,2)}${setLength(blank,30)}${setLength(blank,80)}${setLength(blank,10)}
+<#-- Payment name and address record – receiving party -->
+PAPE${setLength(entity.companyname,60)}${setLength(blank,60)}${setLength(entity.entityid,50)}${setLength(entity.billaddress1,55)}${setLength(entity.billaddress2,55)}${setLength(blank,55)}${setLength(entity.billcity,30)}${setLength(entity.billstate,3)}${setLength(entity.billzipcode?replace("-",""),9)}${setLength(getCountryCode(entity.billcountry),2)}${setLength(entity.billcountry,30)}${setLength(blank,80)}${setLength(blank,10)}
+<#-- Payment name and address record – receiving bank -->
+<#-- Not required for CHK -->
+<#-- Payment name and address record – ordering or vendor party -->
+<#-- Not required for CHK -->
+<#-- Payment name and address record – overnight delivery party -->
+<#-- This will be defined for special handle. Ali needs to define process and then how to identify-->
+<#-- Supplemental check record -->
+<#assign splHandleCode = setMaxLength(payment.custbody_cc_spl_handle_code,2)>
+<#assign wfbRefDelvCode = 100>
+<#assign wfbRefDelvRtnCode = ''>
+<#if splHandleCode==''>
+<#if getCountryCode(entity.billcountry) == 'CA'>
+<#assign wfbRefDelvCode = 300>
+<#assign wfbRefDelvRtnCode = ''>
+</#if>
+<#if getCountryCode(entity.billcountry) == 'US'>
+<#assign wfbRefDelvCode = 100>
+<#assign wfbRefDelvRtnCode = ''>
+</#if>
+</#if>
+<#if splHandleCode=='AP'>
+<#assign wfbRefDelvCode='G40'>
+<#assign wfbRefDelvRtnCode='AP'>
+</#if>
+<#if splHandleCode=='RL'>
+<#assign wfbRefDelvCode='G40'>
+<#assign wfbRefDelvRtnCode='RL'>
+</#if>
+<#if splHandleCode=='OV'>
+<#assign wfbRefDelvCode='500'>
+<#assign wfbRefDelvRtnCode=''>
+</#if>
+<#if splHandleCode=='LE'>
+<#assign wfbRefDelvCode='G40'>
+<#assign wfbRefDelvRtnCode='LE'>
+</#if>
+<#if splHandleCode=='TX'>
+<#assign wfbRefDelvCode='G40'>
+<#assign wfbRefDelvRtnCode='TX'>
+</#if>
+CK${setLength(payment.tranid,15)}${setLength('SR0700CL1145CS1415',18)}${setLength(wfbRefDelvCode,3)}${setLength(blank,60)}${setLength(blank,55)}${setLength(wfbRefDelvRtnCode,10)}${setLength(blank,50)}${setLength(blank,50)}${setLength(blank,80)}${setLength(blank,1)}
+<#-- Supplemental ACH record -->
+<#-- Not required -->
+<#-- Supplemental wire record -->
+<#-- Not required -->
+<#-- Invoice record -->
+<#list transHash[payment.internalid] as transaction>
+<#assign tranType = transaction.recordtype>
+<#assign tranTypeVal='IV'>
+<#if tranType=='invoice'><#assign tranTypeVal='IV'></#if><#if tranType=='creditmemo'><#assign tranTypeVal='CM'></#if>
+<#assign discountAmount = transaction.custbody_disc_amt_avail>
+<#assign invNetAmount = transaction.total - discountAmount>
+<#if (getReferenceAmount(payment, pfa.custrecord_2663_account.type, transaction)!=discountAmount)>
+<#assign discountAmount = formatAmount(discountAmount,"dec")>
+<#if (discountAmount != '0.00' || discountAmount != '0.0'|| discountAmount != '0')>
+<#assign discountAmount = '-'+discountAmount>
+</#if>
+IN${setLength(transaction.tranid,100)}${setLength(transaction.custbody_rnl_invoice_date?iso_utc,10)}${setLength(blank,80)}${setLength(formatAmount(invNetAmount,"dec"),18)}${setLength(formatAmount(transaction.total,"dec"),18)}${setLength(discountAmount,18)}${setLength(transaction.custbody_cc_po_number,15)}${setLength(tranTypeVal,3)}${setLength(blank,70)}${setLength(blank,80)}${setLength(blank,35)}${setLength(blank,35)}${setLength(blank,35)}
+<#assign creditMemoFromBill = transaction.custbody_rnl_credit_memo_details>
+<#if creditMemoFromBill?has_content>
+<#assign lineCreditMemo =''>
+<#assign count = 0>
+<#list creditMemoFromBill?split(";") as record>
+<#list record?split(",") as creditStr>
+<#if count == 0>
+<#assign lineCreditMemo = lineCreditMemo + creditStr>
+</#if>
+<#if count == 1>
+<#assign lineCreditMemo = lineCreditMemo + setLength(creditStr,100)>
+</#if>
+<#if count == 2>
+<#assign lineCreditMemo = lineCreditMemo + setLength(creditStr,10)+setLength(blank,80)>
+</#if>
+<#if count == 3>
+<#assign lineCreditMemo = lineCreditMemo + setLength(creditStr,18)>
+</#if>
+<#if count == 4>
+<#assign lineCreditMemo = lineCreditMemo + setLength(creditStr,18)+setLength(blank,18)+setLength(blank,15)>
+</#if>
+<#if count == 5>
+<#assign lineCreditMemo = lineCreditMemo + setLength(creditStr,3)+setLength(blank,70)+setLength(blank,80)+setLength(blank,35)+setLength(blank,35)+setLength(blank,35)>
+</#if>
+<#assign count = count+1>
+</#list>
+${lineCreditMemo}
+<#assign lineCreditMemo =''>
+<#assign count = 0>
+</#list>
+</#if>
+</#if>
+</#list>
+<#-- Invoice adjustment record -->
+<#-- not applicable for us -->
+<#assign recordCount = recordCount + 1>
+</#list>
+<#-- Trailer record -->
+TR${setPadding(recordCount,"left","0",8)}${setLength(formatAmount(computeTotalAmount(payments,false),"dec"),21)}
+#OUTPUT END#
+</#if>

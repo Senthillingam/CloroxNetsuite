@@ -1,0 +1,146 @@
+[
+  {
+    "APPF__DROP_INDICATOR_LIST_EXTI": null,
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-17T18:00:04.000 UTC"
+    },
+    "IS_RECORD_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-17T18:00:04.000 UTC"
+    },
+    "LIST_ID": 10,
+    "LIST_ITEM_NAME": "BOX: FEDEX"
+  },
+  {
+    "APPF__DROP_INDICATOR_LIST_EXTI": null,
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-17T18:00:04.000 UTC"
+    },
+    "IS_RECORD_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-17T18:00:04.000 UTC"
+    },
+    "LIST_ID": 11,
+    "LIST_ITEM_NAME": "BOX: UPS"
+  },
+  {
+    "APPF__DROP_INDICATOR_LIST_EXTI": null,
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-17T18:00:04.000 UTC"
+    },
+    "IS_RECORD_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-17T18:00:04.000 UTC"
+    },
+    "LIST_ID": 12,
+    "LIST_ITEM_NAME": "Pull From Shrink"
+  },
+  {
+    "APPF__DROP_INDICATOR_LIST_EXTI": null,
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-01-06T22:28:09.000 UTC"
+    },
+    "IS_RECORD_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-01-06T22:28:09.000 UTC"
+    },
+    "LIST_ID": 1,
+    "LIST_ITEM_NAME": "Not For Resale, Staff Training Product"
+  },
+  {
+    "APPF__DROP_INDICATOR_LIST_EXTI": null,
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-01-06T22:28:09.000 UTC"
+    },
+    "IS_RECORD_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-01-06T22:28:09.000 UTC"
+    },
+    "LIST_ID": 2,
+    "LIST_ITEM_NAME": "ASN Needed"
+  },
+  {
+    "APPF__DROP_INDICATOR_LIST_EXTI": null,
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-01-06T22:28:09.000 UTC"
+    },
+    "IS_RECORD_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-01-06T22:28:09.000 UTC"
+    },
+    "LIST_ID": 3,
+    "LIST_ITEM_NAME": "No Invoice"
+  },
+  {
+    "APPF__DROP_INDICATOR_LIST_EXTI": null,
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-01-06T22:28:09.000 UTC"
+    },
+    "IS_RECORD_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-01-06T22:28:09.000 UTC"
+    },
+    "LIST_ID": 4,
+    "LIST_ITEM_NAME": "No Peanuts"
+  },
+  {
+    "APPF__DROP_INDICATOR_LIST_EXTI": null,
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-01-06T22:28:09.000 UTC"
+    },
+    "IS_RECORD_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-01-06T22:28:09.000 UTC"
+    },
+    "LIST_ID": 5,
+    "LIST_ITEM_NAME": "Promo Allocation"
+  },
+  {
+    "APPF__DROP_INDICATOR_LIST_EXTI": null,
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-01-06T22:28:09.000 UTC"
+    },
+    "IS_RECORD_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-01-06T22:28:09.000 UTC"
+    },
+    "LIST_ID": 6,
+    "LIST_ITEM_NAME": "Do Not Include Invoice in Shipment - Send Packing Slip Only"
+  },
+  {
+    "APPF__DROP_INDICATOR_LIST_EXTI": null,
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-01-06T22:28:09.000 UTC"
+    },
+    "IS_RECORD_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-01-06T22:28:09.000 UTC"
+    },
+    "LIST_ID": 7,
+    "LIST_ITEM_NAME": "PO On All Main Cartons, Partials in Separate Boxes"
+  },
+  {
+    "APPF__DROP_INDICATOR_LIST_EXTI": null,
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-01-06T22:28:09.000 UTC"
+    },
+    "IS_RECORD_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-01-06T22:28:09.000 UTC"
+    },
+    "LIST_ID": 8,
+    "LIST_ITEM_NAME": "Lift Gate Required"
+  },
+  {
+    "APPF__DROP_INDICATOR_LIST_EXTI": null,
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-01-06T22:28:09.000 UTC"
+    },
+    "IS_RECORD_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-01-06T22:28:09.000 UTC"
+    },
+    "LIST_ID": 9,
+    "LIST_ITEM_NAME": "Express Saver"
+  }
+]

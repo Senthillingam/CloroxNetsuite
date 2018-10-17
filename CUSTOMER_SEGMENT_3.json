@@ -1,0 +1,272 @@
+[
+  {
+    "CUSTOMER_SEGMENT_1_ID": 1,
+    "CUSTOMER_SEGMENT_2_ID": 1,
+    "CUSTOMER_SEGMENT_3_EXTID": null,
+    "CUSTOMER_SEGMENT_3_ID": 1,
+    "CUSTOMER_SEGMENT_3_NAME": "Food",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:11:37.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 1,
+    "CUSTOMER_SEGMENT_2_ID": 2,
+    "CUSTOMER_SEGMENT_3_EXTID": null,
+    "CUSTOMER_SEGMENT_3_ID": 2,
+    "CUSTOMER_SEGMENT_3_NAME": "Drug - National",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:12:02.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 1,
+    "CUSTOMER_SEGMENT_2_ID": 2,
+    "CUSTOMER_SEGMENT_3_EXTID": null,
+    "CUSTOMER_SEGMENT_3_ID": 3,
+    "CUSTOMER_SEGMENT_3_NAME": "Drug - Independent",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:12:36.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 1,
+    "CUSTOMER_SEGMENT_2_ID": 3,
+    "CUSTOMER_SEGMENT_3_EXTID": null,
+    "CUSTOMER_SEGMENT_3_ID": 4,
+    "CUSTOMER_SEGMENT_3_NAME": "Mass",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:12:50.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 2,
+    "CUSTOMER_SEGMENT_2_ID": 4,
+    "CUSTOMER_SEGMENT_3_EXTID": null,
+    "CUSTOMER_SEGMENT_3_ID": 5,
+    "CUSTOMER_SEGMENT_3_NAME": "Independents E-Tailer",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:13:08.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 2,
+    "CUSTOMER_SEGMENT_2_ID": 4,
+    "CUSTOMER_SEGMENT_3_EXTID": null,
+    "CUSTOMER_SEGMENT_3_ID": 6,
+    "CUSTOMER_SEGMENT_3_NAME": "Independents Brick N Click",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:15:22.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 2,
+    "CUSTOMER_SEGMENT_2_ID": 4,
+    "CUSTOMER_SEGMENT_3_EXTID": null,
+    "CUSTOMER_SEGMENT_3_ID": 7,
+    "CUSTOMER_SEGMENT_3_NAME": "Independents Brick N Mortar",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:15:39.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 2,
+    "CUSTOMER_SEGMENT_2_ID": 5,
+    "CUSTOMER_SEGMENT_3_EXTID": null,
+    "CUSTOMER_SEGMENT_3_ID": 8,
+    "CUSTOMER_SEGMENT_3_NAME": "Chains",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:15:56.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 2,
+    "CUSTOMER_SEGMENT_2_ID": 6,
+    "CUSTOMER_SEGMENT_3_EXTID": null,
+    "CUSTOMER_SEGMENT_3_ID": 9,
+    "CUSTOMER_SEGMENT_3_NAME": "Vitamin",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:16:09.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 2,
+    "CUSTOMER_SEGMENT_2_ID": 7,
+    "CUSTOMER_SEGMENT_3_EXTID": null,
+    "CUSTOMER_SEGMENT_3_ID": 10,
+    "CUSTOMER_SEGMENT_3_NAME": "UNFI",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:16:40.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 3,
+    "CUSTOMER_SEGMENT_2_ID": 8,
+    "CUSTOMER_SEGMENT_3_EXTID": null,
+    "CUSTOMER_SEGMENT_3_ID": 11,
+    "CUSTOMER_SEGMENT_3_NAME": "E-Tailer PurePlay",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:16:57.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 3,
+    "CUSTOMER_SEGMENT_2_ID": 8,
+    "CUSTOMER_SEGMENT_3_EXTID": null,
+    "CUSTOMER_SEGMENT_3_ID": 12,
+    "CUSTOMER_SEGMENT_3_NAME": "E-Tailer Brick N Click",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:17:21.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 3,
+    "CUSTOMER_SEGMENT_2_ID": 9,
+    "CUSTOMER_SEGMENT_3_EXTID": null,
+    "CUSTOMER_SEGMENT_3_ID": 13,
+    "CUSTOMER_SEGMENT_3_NAME": "Direct To Consumer",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:17:39.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 4,
+    "CUSTOMER_SEGMENT_2_ID": 10,
+    "CUSTOMER_SEGMENT_3_EXTID": null,
+    "CUSTOMER_SEGMENT_3_ID": 14,
+    "CUSTOMER_SEGMENT_3_NAME": "Advanced Naturals",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:17:52.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 5,
+    "CUSTOMER_SEGMENT_2_ID": 11,
+    "CUSTOMER_SEGMENT_3_EXTID": null,
+    "CUSTOMER_SEGMENT_3_ID": 15,
+    "CUSTOMER_SEGMENT_3_NAME": "House",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:18:03.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 6,
+    "CUSTOMER_SEGMENT_2_ID": 12,
+    "CUSTOMER_SEGMENT_3_EXTID": null,
+    "CUSTOMER_SEGMENT_3_ID": 16,
+    "CUSTOMER_SEGMENT_3_NAME": "Export",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:18:16.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 7,
+    "CUSTOMER_SEGMENT_2_ID": 13,
+    "CUSTOMER_SEGMENT_3_EXTID": null,
+    "CUSTOMER_SEGMENT_3_ID": 17,
+    "CUSTOMER_SEGMENT_3_NAME": "Miscellaneous",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:18:39.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 8,
+    "CUSTOMER_SEGMENT_2_ID": 14,
+    "CUSTOMER_SEGMENT_3_EXTID": null,
+    "CUSTOMER_SEGMENT_3_ID": 18,
+    "CUSTOMER_SEGMENT_3_NAME": "Club",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-05-02T03:54:28.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-05-02T03:54:28.000 UTC"
+    },
+    "PARENT_ID": null
+  }
+]

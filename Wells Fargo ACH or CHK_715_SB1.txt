@@ -1,0 +1,364 @@
+Reference Fileds
+
+<refFields type="Wells Fargo ACH or CHK">
+<refField id="custrecord_2663_bank_comp_id" label="Immediate Origin" mandatory="true" helptext="Enter your company's TAX Id or 10-digit number assigned by the bank to identify your company's ACH files."/>
+<refField id="custrecord_2663_issuer_num" label="Company ID" mandatory="true" helptext="Enter your company's Tax ID or company number assigned by your bank."/>
+<refField id="custrecord_2663_acct_num" label="Account Number" mandatory="true" helptext="Enter your company's bank account number."/>
+<refField id="custrecord_2663_bank_num" label="Routing Number" mandatory="true" helptext="Enter the bank's transit routing number."/>
+<refField id="custrecord_2663_bank_name" label="Immediate Destination Name" mandatory="true" helptext="Enter the name of the bank’s site where the payment will be processed. You can enter a maximum of 23 characters."/>
+<refField id="custrecord_2663_bank_acct_type" label="Bank Account Type" helptext="Select Checking or Savings to indicate the bank account type."/>
+<refField id="custrecord_2663_balance_line" label="Create Balanced Files" helptext="If your bank requires balanced files for EFT transactions, check this box to include a balancing line in the payment file to indicate the amount debited from your company’s bank account. Clear this box if your bank accepts unbalanced files."/>
+<refField id="custrecord_2663_processor_code" label="Federal Reserve Routing Symbol" displaytype="disabled" helptext="This field displays the Federal Reserve Routing Symbol based on the routing number that you entered."/>
+<refField id="custrecord_2663_bank_code" label="ABA Institution Identifier" displaytype="disabled" helptext="This field displays the ABA institution identifier based on the routing number that you entered."/>
+<refField id="custrecord_2663_country_check" label="Check Digit" displaytype="disabled" helptext="This field diplays the check digit based on the routing number that you entered."/>
+<refField id="custentity_rnl_effectivedate" label="Effective Date" mandatory="true" helptext="This field displays the system-generated number associated with this transaction."/>
+</refFields>
+
+
+Entity Reference
+
+
+<refFields type='Wells Fargo ACH or CHK'>
+<refField id='custrecord_cc_entity_bank_payment_type' mandatory='true' label='Entity Bank Payment Type'/>
+  <refField id='custrecord_2663_entity_acct_no' label='Bank Account Number' mandatory='true' />
+  <refField id='custrecord_2663_entity_bank_no' label='Bank Number' mandatory='true' />
+  <refField id='custrecord_2663_entity_bank_acct_type' mandatory='true' label='Bank Account Type'/>
+  <refField id='custrecord_2663_entity_country_check' label='Country Check' displaytype='disabled' /> 
+  <refField id='custrecord_2663_entity_bank_code' label='Bank Code' displaytype='disabled' /> 
+  <refField id='custrecord_2663_entity_processor_code' label='Processor Code' displaytype='disabled' />
+ <refField id='custrecord_cc_ach_format_protocol' mandatory='true' label='ACH Format Protocol'/>
+<refField id='custrecord_cc_vendor_bankname' mandatory='true' label='Vendor Bank Name'/>
+</refFields>
+
+
+Field Valid
+
+<fieldValidatorList>
+
+<fieldValidator>
+    <fieldName>custrecord_2663_bank_num</fieldName>
+    <validatorList>
+    <validator type='len'>
+        <param name='minLength'>9</param>
+        <param name='maxLength'>9</param>
+    </validator>
+    <validator type='custom' />
+    </validatorList>
+</fieldValidator>
+
+<fieldValidator>
+    <fieldName>custrecord_2663_bank_comp_id</fieldName>
+    <validatorList>
+    <validator type='len'>
+        <param name='minLength'>10</param>
+        <param name='maxLength'>10</param>
+    </validator>
+    <validator type='num' />
+</validatorList>
+</fieldValidator>
+
+<fieldValidator>
+    <fieldName>custrecord_2663_issuer_num</fieldName>
+    <validatorList>
+    <validator type='len'>
+        <param name='minLength'>10</param>
+        <param name='maxLength'>10</param>
+    </validator>
+    <validator type='num' />
+</validatorList>
+</fieldValidator>
+
+<fieldValidator>
+    <fieldName>custrecord_2663_acct_num</fieldName>
+    <validatorList>
+    <validator type='len'>
+        <param name='maxLength'>17</param>
+    </validator>
+    <validator type="alpha">
+        <param name="specialChars">!&quot;#$%&amp;&apos;()*+,-.\/:;&lt;=&gt;?@\[\\\]^_`\{|\}~0-9</param>
+    </validator>
+</validatorList>
+</fieldValidator>
+
+<fieldValidator>
+    <fieldName>custrecord_2663_bank_name</fieldName>
+    <validatorList>
+    <validator type='len'>
+        <param name='maxLength'>23</param>
+    </validator>
+    <validator type="alpha">
+        <param name="specialChars">!&quot;#$%&amp;&apos;()*+,-.\/:;&lt;=&gt;?@\[\\\]^_`\{|\}~0-9</param>
+    </validator>
+</validatorList>
+</fieldValidator>
+
+<fieldValidator>
+    <fieldName>custrecord_2663_legal_name</fieldName>
+    <validatorList>
+    <validator type='len'>
+        <param name='maxLength'>16</param>
+    </validator>
+    <validator type="alpha">
+        <param name="specialChars">!&quot;#$%&amp;&apos;()*+,-.\/:;&lt;=&gt;?@\[\\\]^_`\{|\}~0-9</param>
+    </validator>
+</validatorList>
+</fieldValidator>
+
+<fieldValidator>
+    <fieldName>custrecord_2663_entity_bank_no</fieldName>
+    <validatorList>
+    <validator type='len'>
+        <param name='minLength'>9</param>
+        <param name='maxLength'>9</param>
+    </validator>
+    <validator type='custom' />
+    </validatorList>
+</fieldValidator>
+
+<fieldValidator>
+    <fieldName>custrecord_2663_entity_acct_no</fieldName>
+    <validatorList>
+    <validator type='len'>
+        <param name='maxLength'>17</param>
+    </validator>
+    <validator type="alpha">
+        <param name="specialChars">!&quot;#$%&amp;&apos;()*+,-.\/:;&lt;=&gt;?@\[\\\]^_`\{|\}~0-9</param>
+    </validator>
+</validatorList>
+</fieldValidator>
+
+</fieldValidatorList>
+
+
+
+Adv Template
+
+
+<#-- Generate payment file based on bank record ACH or CHK-->
+<#assign bankRecord = pfa.custrecord_2663_bank_account>
+<#if bankRecord == 'WFB AP ACH Bank clearing'>
+<#-- template building -->
+<#assign aDateTime = .now>
+<#assign aDate = aDateTime?date>
+<#assign recordCount = 0>
+<#assign timeStamp = pfa.custrecord_2663_file_creation_timestamp>
+<#assign timeStampDate = timeStamp?date>
+<#-- Company Address Information -->
+<#assign cAddress1 = 'Accounts Payable Department'>
+<#assign cAddress2 = '4900 Johnson Drive, A1-120'>
+<#assign cAddress3 = ''>
+<#assign cCity = 'Pleasanton'>
+<#assign cState = 'CA'>
+<#assign cZip = '94588'>
+<#assign cCountry = 'United States'>
+#OUTPUT START#
+<#-- header record -->
+HD${setLength(pfa.name,15)}${timeStampDate?iso_utc}
+<#list payments as payment>
+<#assign ebank = ebanks[payment_index]> 
+<#assign entity = entities[payment_index]>
+<#-- Getting Values based on Payment method -->
+<#assign OBankIdType = ''>
+<#assign blank = ''> 
+<#function getReferenceAmount payment accountType transaction> 
+<#assign tranAmount = 0 > 
+<#if payment.currency?has_content>
+<#if accountType == "Bank">
+<#assign tranAmount = transaction.appliedtoforeignamount>
+<#else>
+<#assign tranAmount = transaction.applyingforeignamount>
+</#if>
+<#else>
+<#if accountType == "Bank">
+<#assign tranAmount = transaction.appliedtolinkamount>
+<#else>
+<#assign tranAmount = transaction.applyinglinkamount>
+</#if>
+</#if> 
+<#if (tranAmount < 0)>
+<#assign tranAmount = tranAmount * -1>
+</#if>
+<#return tranAmount>
+</#function>
+<#assign amount = getAmount(payment)>
+<#assign rpAccType = ebank.custrecord_2663_entity_bank_acct_type>
+<#if rpAccType == 'Savings'>
+<#assign rpAccTypeVal = 'S'>
+<#else>
+<#assign rpAccTypeVal = 'D'>
+</#if>
+<#-- payment record -->
+PY${setLength('DAC',3)}${setLength('C',1)}${setLength(payment.tranid,30)}${setLength(aDate?iso_utc,10)}${setLength(blank,10)}${setLength(blank,10)}${setLength(formatAmount(payment.total,"dec"),19)}${setLength(getCurrencySymbol(payment.currency),3)}D${setLength(cbank.custpage_eft_custrecord_2663_acct_num,35)}${setLength(blank,3)}ABA${setLength(cbank.custpage_eft_custrecord_2663_bank_num,11)}${setLength(rpAccTypeVal,1)}${setLength(ebank.custrecord_2663_entity_acct_no,35)}${setLength(getCurrencySymbol(payment.currency),3)}ABA${setLength(ebank.custrecord_2663_entity_bank_no,11)}${setLength(blank,35)}${setLength('U',1)}${setLength(blank,1)}${setLength('10000RNEW',60)}${setLength(blank,1)}${setLength(blank,15)}${setLength(blank,160)}${setLength(blank,19)}${setLength(blank,1)}${setLength(blank,1)}
+<#-- Payment name and address record – originating party -->
+PAPR${setLength(companyinformation.companyname,60)}${setLength(blank,60)}${setLength(blank,50)}${setLength(cAddress1,55)}${setLength(cAddress2,55)}${setLength(cAddress3,55)}${setLength(cCity,30)}${setLength(cState,3)}${setLength(cZip,9)}${setLength(getCountryCode(cCountry),2)}${setLength(cCountry,30)}${setLength(blank,80)}${setLength(blank,10)}${setLength(blank,3)}
+<#-- Payment name and address record – originating bank -->
+PAO1${setLength('Wells Fargo Bank',60)}${setLength(blank,60)}${setLength(blank,50)}${setLength(blank,55)}${setLength(blank,55)}${setLength(blank,55)}${setLength(blank,30)}${setLength(blank,3)}${setLength(blank,9)}${setLength(blank,2)}${setLength(blank,30)}${setLength(blank,80)}${setLength(blank,10)}
+<#-- Payment name and address record – receiving party -->
+PAPE${setLength(entity.companyname,60)}${setLength(blank,60)}${setLength(entity.entityid,50)}${setLength(entity.billaddress1,55)}${setLength(entity.billaddress2,55)}${setLength(blank,55)}${setLength(entity.billcity,30)}${setLength(entity.billstate,3)}${setLength(entity.billzipcode,9)}${setLength(getCountryCode(entity.billcountry),2)}${setLength(entity.billcountry,30)}${setLength(blank,80)}${setLength(blank,10)}
+<#-- Payment name and address record – receiving bank -->
+PARB${setLength(ebank.custrecord_cc_vendor_bankname,60)}${setLength(blank,60)}${setLength(blank,50)}${setLength(blank,55)}${setLength(blank,55)}${setLength(blank,55)}${setLength(blank,30)}${setLength(blank,3)}${setLength(blank,9)}${setLength(blank,2)}${setLength(blank,30)}${setLength(blank,80)}${setLength(blank,10)}
+<#-- Payment name and address record – ordering or vendor party -->
+<#-- TBD I don’t think we need this -->
+<#-- Payment name and address record – overnight delivery party -->
+<#-- Not required for DAC -->
+<#-- Supplemental check record -->
+<#-- Not required for DAC-->
+<#-- Supplemental ACH record -->
+AC${setLength('1410617000',10)}${setLength(blank,15)}${setLength(blank,2)}${setLength(ebank.custrecord_cc_ach_format_protocol,4)}${setLength(blank,3)}${setLength(blank,3)}${setLength(blank,11)}${setLength(blank,3)}${setLength(blank,11)}${setLength(blank,35)}${setLength(blank,4)}${setLength(blank,4)}
+<#-- Document delivery record -->
+<#assign emailAddPayment = entity.custentity_2663_email_address_notif>
+<#if  emailAddPayment != ''>
+<#assign deliveryType = 'EMAIL'>
+<#assign deliveryEmail = entity.custentity_2663_email_address_notif>
+<#assign vAddress1 = ''>
+<#assign vAddress2 = ''>
+<#assign vCity = ''>
+<#assign vState = ''>
+<#assign vZip = ''>
+<#assign vCountry = ''>
+<#assign EDDDeliveryCode = ''>
+<#else>
+<#assign deliveryType = 'DOC'>
+<#assign deliveryEmail = ''>
+<#assign vAddress1 = entity.billaddress1>
+<#assign vAddress2 = entity.billaddress2>
+<#assign vCity = entity.billcity>
+<#assign vState = entity.billstate>
+<#assign vZip = entity.billzipcode>
+<#assign vCountry = entity.billcountry>
+<#assign EDDDeliveryCode = '1'>
+</#if>
+DD${setLength('PDF',5)}${setLength(deliveryType,5)}${setLength(entity.companyname,60)}${setLength(blank,12)}${setLength(deliveryEmail,60)}${setLength(blank,60)}${setLength(blank,60)}${setLength(blank,6)}${setLength(blank,255)}${setLength(blank,60)}${setLength(blank,255)}${setLength(blank,60)}${setLength(vAddress1,55)}${setLength(vAddress2,55)}${setLength(vCity,55)}${setLength(vState,3)}${setLength(vZip,9)}${setLength(vCountry,30)}${setLength(EDDDeliveryCode,1)}${setLength(blank,55)}${setLength(blank,80)}${setLength(blank,80)}${setLength(blank,80)}
+<#-- Invoice record -->
+<#list transHash[payment.internalid] as transaction>
+<#assign tranType = transaction.recordtype>
+<#assign tranTypeVal='IV'>
+<#if tranType=='invoice'><#assign tranTypeVal='IV'></#if><#if tranType=='creditmemo'><#assign tranTypeVal='CM'></#if>
+<#assign discountAmount = transaction.custbody_disc_amt_avail>
+<#if (getReferenceAmount(payment, pfa.custrecord_2663_account.type, transaction)!=discountAmount)>
+IN${setLength(transaction.tranid,100)}${setLength(transaction.custbody_rnl_invoice_date?iso_utc,10)}${setLength(blank,80)}${setLength(formatAmount(getReferenceAmount(payment, pfa.custrecord_2663_account.type, transaction),"dec"),18)}${setLength(formatAmount(transaction.total,"dec"),18)}${setLength(formatAmount(discountAmount,"dec"),18)}${setLength(transaction.custbody_cc_po_number,15)}${setLength(tranTypeVal,3)}${setLength(blank,70)}${setLength(blank,80)}${setLength(blank,35)}${setLength(blank,35)}${setLength(blank,35)}
+</#if>
+</#list>
+<#-- Invoice adjustment record -->
+<#-- not applicable for us -->
+<#assign recordCount = recordCount + 1>
+</#list>
+<#-- Trailer record -->
+TR${setPadding(recordCount,"left","0",8)}${setLength(formatAmount(computeTotalAmount(payments,false),"dec"),21)}
+#OUTPUT END#
+<#else>
+<#-- template building -->
+<#assign aDateTime = .now>
+<#assign aDate = aDateTime?date>
+<#assign recordCount = 0>
+<#assign timeStamp = pfa.custrecord_2663_file_creation_timestamp>
+<#assign timeStampDate = timeStamp?date>
+<#-- Company Address Information -->
+<#assign cAddress1 = 'Accounts Payable Department'>
+<#assign cAddress2 = '4900 Johnson Drive, A1-120'>
+<#assign cAddress3 = ''>
+<#assign cCity = 'Pleasanton'>
+<#assign cState = 'CA'>
+<#assign cZip = '94588'>
+<#assign cCountry = 'United States'>
+#OUTPUT START#
+<#-- header record -->
+HD${setLength(pfa.name,15)}${timeStampDate?iso_utc}
+<#list payments as payment>
+<#assign ebank = ebanks[payment_index]> 
+<#assign entity = entities[payment_index]>
+<#-- Getting Values based on Payment method -->
+<#assign OBankIdType = ''>
+<#assign blank = ''> 
+<#function getReferenceAmount payment accountType transaction> 
+<#assign tranAmount = 0 > 
+<#if payment.currency?has_content>
+<#if accountType == "Bank">
+<#assign tranAmount = transaction.appliedtoforeignamount>
+<#else>
+<#assign tranAmount = transaction.applyingforeignamount>
+</#if>
+<#else>
+<#if accountType == "Bank"> 
+<#assign tranAmount = transaction.appliedtolinkamount>
+<#else>
+<#assign tranAmount = transaction.applyinglinkamount>
+</#if>
+</#if> 
+<#if (tranAmount < 0)>
+<#assign tranAmount = tranAmount * -1>
+</#if>
+<#return tranAmount>
+</#function>
+<#assign amount = getAmount(payment)>
+<#-- payment record -->
+PY${setLength('CHK',3)}${setLength('C',1)}${setLength(payment.tranid,30)}${setLength(aDate?iso_utc,10)}${setLength(blank,10)}${setLength(blank,10)}${setLength(formatAmount(payment.total,"dec"),19)}${setLength(getCurrencySymbol(payment.currency),3)}D${setLength(cbank.custpage_eft_custrecord_2663_acct_num,35)}${setLength(blank,3)}ABA${setLength(cbank.custpage_eft_custrecord_2663_bank_num,11)}${setLength(blank,1)}${setLength(blank,35)}${setLength(blank,3)}${setLength(blank,3)}${setLength(blank,11)}${setLength(blank,35)}${setLength(blank,1)}${setLength(blank,1)}${setLength(blank,60)}${setLength(blank,1)}${setLength(blank,15)}${setLength(blank,160)}${setLength(blank,19)}${setLength(blank,1)}${setLength(blank,1)}
+<#-- Payment name and address record – originating party -->
+PAPR${setLength(companyinformation.companyname,60)}${setLength(blank,60)}${setLength(blank,50)}${setLength(cAddress1,55)}${setLength(cAddress2,55)}${setLength(cAddress3,55)}${setLength(cCity,30)}${setLength(cState,3)}${setLength(cZip,9)}${setLength(getCountryCode(cCountry),2)}${setLength(cCountry,30)}${setLength(blank,80)}${setLength(blank,10)}${setLength(blank,3)}
+<#-- Payment name and address record – originating bank -->
+PAO1${setLength('Wells Fargo Bank',60)}${setLength(blank,60)}${setLength(blank,50)}${setLength(blank,55)}${setLength(blank,55)}${setLength(blank,55)}${setLength(blank,30)}${setLength(blank,3)}${setLength(blank,9)}${setLength(blank,2)}${setLength(blank,30)}${setLength(blank,80)}${setLength(blank,10)}
+<#-- Payment name and address record – receiving party -->
+PAPE${setLength(entity.companyname,60)}${setLength(blank,60)}${setLength(entity.entityid,50)}${setLength(entity.billaddress1,55)}${setLength(entity.billaddress2,55)}${setLength(blank,55)}${setLength(entity.billcity,30)}${setLength(entity.billstate,3)}${setLength(entity.billzipcode,9)}${setLength(getCountryCode(entity.billcountry),2)}${setLength(entity.billcountry,30)}${setLength(blank,80)}${setLength(blank,10)}
+<#-- Payment name and address record – receiving bank -->
+<#-- Not required for CHK -->
+<#-- Payment name and address record – ordering or vendor party -->
+<#-- Not required for CHK -->
+<#-- Payment name and address record – overnight delivery party -->
+<#-- This will be defined for special handle. Ali needs to define process and then how to identify-->
+<#-- Supplemental check record -->
+<#assign splHandleCode = setMaxLength(payment.custbody_cc_spl_handle_code,2)>
+<#assign wfbRefDelvCode = 100>
+<#assign wfbRefDelvRtnCode = ''>
+<#if splHandleCode==''>
+<#if getCountryCode(entity.billcountry) == 'CA'>
+<#assign wfbRefDelvCode = 300>
+<#assign wfbRefDelvRtnCode = ''>
+</#if>
+<#if getCountryCode(entity.billcountry) == 'US'>
+<#assign wfbRefDelvCode = 100>
+<#assign wfbRefDelvRtnCode = ''>
+</#if>
+</#if>
+<#if splHandleCode=='AP'>
+<#assign wfbRefDelvCode='G40'>
+<#assign wfbRefDelvRtnCode='AP'>
+</#if>
+<#if splHandleCode=='RL'>
+<#assign wfbRefDelvCode='G40'>
+<#assign wfbRefDelvRtnCode='RL'>
+</#if>
+<#if splHandleCode=='OV'>
+<#assign wfbRefDelvCode='500'>
+<#assign wfbRefDelvRtnCode=''>
+</#if>
+<#if splHandleCode=='LE'>
+<#assign wfbRefDelvCode='G40'>
+<#assign wfbRefDelvRtnCode='LE'>
+</#if>
+<#if splHandleCode=='TX'>
+<#assign wfbRefDelvCode='G40'>
+<#assign wfbRefDelvRtnCode='TX'>
+</#if>
+CK${setLength(payment.tranid,15)}${setLength('SR0700CL1145CS1415',18)}${setLength(wfbRefDelvCode,3)}${setLength(blank,60)}${setLength(blank,55)}${setLength(wfbRefDelvRtnCode,10)}${setLength(blank,50)}${setLength(blank,50)}${setLength(blank,80)}${setLength(blank,1)}
+<#-- Supplemental ACH record -->
+<#-- Not required -->
+<#-- Supplemental wire record -->
+<#-- Not required -->
+<#-- Invoice record -->
+<#list transHash[payment.internalid] as transaction>
+<#assign tranType = transaction.recordtype>
+<#assign tranTypeVal='IV'>
+<#if tranType=='invoice'><#assign tranTypeVal='IV'></#if><#if tranType=='creditmemo'><#assign tranTypeVal='CM'></#if>
+<#assign discountAmount = transaction.custbody_disc_amt_avail>
+<#if (getReferenceAmount(payment, pfa.custrecord_2663_account.type, transaction)!=discountAmount)>
+IN${setLength(transaction.tranid,100)}${setLength(transaction.custbody_rnl_invoice_date?iso_utc,10)}${setLength(blank,80)}${setLength(formatAmount(getReferenceAmount(payment, pfa.custrecord_2663_account.type, transaction),"dec"),18)}${setLength(formatAmount(transaction.total,"dec"),18)}${setLength(formatAmount(discountAmount,"dec"),18)}${setLength(transaction.custbody_cc_po_number,15)}${setLength(tranTypeVal,3)}${setLength(blank,70)}${setLength(blank,80)}${setLength(blank,35)}${setLength(blank,35)}${setLength(blank,35)}
+</#if>
+</#list>
+<#-- Invoice adjustment record -->
+<#-- not applicable for us -->
+<#assign recordCount = recordCount + 1>
+</#list>
+<#-- Trailer record -->
+TR${setPadding(recordCount,"left","0",8)}${setLength(formatAmount(computeTotalAmount(payments,false),"dec"),21)}
+#OUTPUT END#
+</#if>

@@ -1,0 +1,106 @@
+[
+  {
+    "ENTITY_ID": 15423,
+    "APPF__DROP_INDICATOR_LIST_ID": 10
+  },
+  {
+    "ENTITY_ID": 15423,
+    "APPF__DROP_INDICATOR_LIST_ID": 12
+  },
+  {
+    "ENTITY_ID": 15430,
+    "APPF__DROP_INDICATOR_LIST_ID": 11
+  },
+  {
+    "ENTITY_ID": 15431,
+    "APPF__DROP_INDICATOR_LIST_ID": 10
+  },
+  {
+    "ENTITY_ID": 15436,
+    "APPF__DROP_INDICATOR_LIST_ID": 10
+  },
+  {
+    "ENTITY_ID": 15436,
+    "APPF__DROP_INDICATOR_LIST_ID": 11
+  },
+  {
+    "ENTITY_ID": 15521,
+    "APPF__DROP_INDICATOR_LIST_ID": 10
+  },
+  {
+    "ENTITY_ID": 15521,
+    "APPF__DROP_INDICATOR_LIST_ID": 11
+  },
+  {
+    "ENTITY_ID": 15536,
+    "APPF__DROP_INDICATOR_LIST_ID": 11
+  },
+  {
+    "ENTITY_ID": 15537,
+    "APPF__DROP_INDICATOR_LIST_ID": 11
+  },
+  {
+    "ENTITY_ID": 15547,
+    "APPF__DROP_INDICATOR_LIST_ID": 10
+  },
+  {
+    "ENTITY_ID": 15547,
+    "APPF__DROP_INDICATOR_LIST_ID": 11
+  },
+  {
+    "ENTITY_ID": 15575,
+    "APPF__DROP_INDICATOR_LIST_ID": 8
+  },
+  {
+    "ENTITY_ID": 15579,
+    "APPF__DROP_INDICATOR_LIST_ID": 10
+  },
+  {
+    "ENTITY_ID": 15579,
+    "APPF__DROP_INDICATOR_LIST_ID": 11
+  },
+  {
+    "ENTITY_ID": 15631,
+    "APPF__DROP_INDICATOR_LIST_ID": 10
+  },
+  {
+    "ENTITY_ID": 15640,
+    "APPF__DROP_INDICATOR_LIST_ID": 10
+  },
+  {
+    "ENTITY_ID": 15646,
+    "APPF__DROP_INDICATOR_LIST_ID": 10
+  },
+  {
+    "ENTITY_ID": 15649,
+    "APPF__DROP_INDICATOR_LIST_ID": 10
+  },
+  {
+    "ENTITY_ID": 15580,
+    "APPF__DROP_INDICATOR_LIST_ID": 4
+  },
+  {
+    "ENTITY_ID": 15580,
+    "APPF__DROP_INDICATOR_LIST_ID": 10
+  },
+  {
+    "ENTITY_ID": 16442,
+    "APPF__DROP_INDICATOR_LIST_ID": 4
+  },
+  {
+    "ENTITY_ID": 16442,
+    "APPF__DROP_INDICATOR_LIST_ID": 8
+  },
+  {
+    "ENTITY_ID": 16442,
+    "APPF__DROP_INDICATOR_LIST_ID": 10
+  },
+  {
+    "ENTITY_ID": 16657,
+    "APPF__DROP_INDICATOR_LIST_ID": 10
+  },
+  {
+    "ENTITY_ID": 16656,
+    "APPF__DROP_INDICATOR_LIST_ID": 10
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "APPF__CUSTOMER_DROP_CODE_LI_EX": null,
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2016-12-19T19:52:34.000 UTC"
+    },
+    "IS_RECORD_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2016-12-19T19:52:34.000 UTC"
+    },
+    "LIST_ID": 1,
+    "LIST_ITEM_NAME": "Not for resale, staff training product"
+  },
+  {
+    "APPF__CUSTOMER_DROP_CODE_LI_EX": null,
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2016-12-19T19:52:34.000 UTC"
+    },
+    "IS_RECORD_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2016-12-19T19:52:34.000 UTC"
+    },
+    "LIST_ID": 2,
+    "LIST_ITEM_NAME": "ASN needed"
+  },
+  {
+    "APPF__CUSTOMER_DROP_CODE_LI_EX": null,
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2016-12-19T19:52:34.000 UTC"
+    },
+    "IS_RECORD_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2016-12-19T19:52:34.000 UTC"
+    },
+    "LIST_ID": 3,
+    "LIST_ITEM_NAME": "No invoice"
+  },
+  {
+    "APPF__CUSTOMER_DROP_CODE_LI_EX": null,
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2016-12-19T19:52:34.000 UTC"
+    },
+    "IS_RECORD_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2016-12-19T19:52:34.000 UTC"
+    },
+    "LIST_ID": 4,
+    "LIST_ITEM_NAME": "Do not include invoice in shipment - Send packing slip only"
+  },
+  {
+    "APPF__CUSTOMER_DROP_CODE_LI_EX": null,
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2016-12-19T19:52:34.000 UTC"
+    },
+    "IS_RECORD_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2016-12-19T19:52:34.000 UTC"
+    },
+    "LIST_ID": 5,
+    "LIST_ITEM_NAME": "No peanuts"
+  },
+  {
+    "APPF__CUSTOMER_DROP_CODE_LI_EX": null,
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2016-12-19T19:52:34.000 UTC"
+    },
+    "IS_RECORD_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2016-12-19T19:52:34.000 UTC"
+    },
+    "LIST_ID": 6,
+    "LIST_ITEM_NAME": "Promo allocation"
+  },
+  {
+    "APPF__CUSTOMER_DROP_CODE_LI_EX": null,
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2016-12-19T19:52:34.000 UTC"
+    },
+    "IS_RECORD_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2016-12-19T19:52:34.000 UTC"
+    },
+    "LIST_ID": 7,
+    "LIST_ITEM_NAME": "PO on all main cartons, partials in separate boxes"
+  },
+  {
+    "APPF__CUSTOMER_DROP_CODE_LI_EX": null,
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2016-12-19T19:52:34.000 UTC"
+    },
+    "IS_RECORD_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2016-12-19T19:52:34.000 UTC"
+    },
+    "LIST_ID": 8,
+    "LIST_ITEM_NAME": "Life gate required"
+  },
+  {
+    "APPF__CUSTOMER_DROP_CODE_LI_EX": null,
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2016-12-19T19:52:34.000 UTC"
+    },
+    "IS_RECORD_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2016-12-19T19:52:34.000 UTC"
+    },
+    "LIST_ID": 9,
+    "LIST_ITEM_NAME": "Express saver"
+  }
+]

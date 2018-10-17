@@ -1,0 +1,557 @@
+[
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T11:02:59.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 1,
+    "REGION__SALES_TERRITORY_NAME": "SAMS CLUB",
+    "SALES_DEPT_ID": 1,
+    "SECTOR_ID": 1
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T11:03:44.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 2,
+    "REGION__SALES_TERRITORY_NAME": "WAL MART",
+    "SALES_DEPT_ID": 1,
+    "SECTOR_ID": 2
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T11:23:50.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 3,
+    "REGION__SALES_TERRITORY_NAME": "BJS",
+    "SALES_DEPT_ID": 2,
+    "SECTOR_ID": 3
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T11:24:02.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 4,
+    "REGION__SALES_TERRITORY_NAME": "COSTCO",
+    "SALES_DEPT_ID": 2,
+    "SECTOR_ID": 4
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T11:24:14.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 5,
+    "REGION__SALES_TERRITORY_NAME": "DOLLAR GENERAL",
+    "SALES_DEPT_ID": 2,
+    "SECTOR_ID": 5
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T11:24:30.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 6,
+    "REGION__SALES_TERRITORY_NAME": "DOLLAR TREE STORES",
+    "SALES_DEPT_ID": 2,
+    "SECTOR_ID": 6
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T11:25:10.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 7,
+    "REGION__SALES_TERRITORY_NAME": "LOWES",
+    "SALES_DEPT_ID": 2,
+    "SECTOR_ID": 6
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T11:25:28.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 8,
+    "REGION__SALES_TERRITORY_NAME": "VALUE DISCOUNT",
+    "SALES_DEPT_ID": 2,
+    "SECTOR_ID": 6
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T11:25:36.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 9,
+    "REGION__SALES_TERRITORY_NAME": "TARGET",
+    "SALES_DEPT_ID": 2,
+    "SECTOR_ID": 7
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:30:04.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 10,
+    "REGION__SALES_TERRITORY_NAME": "CTL NORTHEAST",
+    "SALES_DEPT_ID": 3,
+    "SECTOR_ID": 8
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:30:18.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 11,
+    "REGION__SALES_TERRITORY_NAME": "CTL WHOLESALERS",
+    "SALES_DEPT_ID": 3,
+    "SECTOR_ID": 8
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:30:36.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 12,
+    "REGION__SALES_TERRITORY_NAME": "MILITARY",
+    "SALES_DEPT_ID": 3,
+    "SECTOR_ID": 8
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:31:11.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 13,
+    "REGION__SALES_TERRITORY_NAME": "RSM GREAT LAKES",
+    "SALES_DEPT_ID": 3,
+    "SECTOR_ID": 8
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:32:44.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 14,
+    "REGION__SALES_TERRITORY_NAME": "RSM MIDWEST",
+    "SALES_DEPT_ID": 3,
+    "SECTOR_ID": 8
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:36:20.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 15,
+    "REGION__SALES_TERRITORY_NAME": "RSM NORTHEAST",
+    "SALES_DEPT_ID": 3,
+    "SECTOR_ID": 8
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:36:41.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 16,
+    "REGION__SALES_TERRITORY_NAME": "HOME DEPOT",
+    "SALES_DEPT_ID": 3,
+    "SECTOR_ID": 9
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:36:59.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 17,
+    "REGION__SALES_TERRITORY_NAME": "RSM SOUTHEAST",
+    "SALES_DEPT_ID": 3,
+    "SECTOR_ID": 9
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:37:30.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 18,
+    "REGION__SALES_TERRITORY_NAME": "KROGER TEAM",
+    "SALES_DEPT_ID": 3,
+    "SECTOR_ID": 10
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:38:23.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 19,
+    "REGION__SALES_TERRITORY_NAME": "NATRL-ALT CH",
+    "SALES_DEPT_ID": 3,
+    "SECTOR_ID": 10
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:38:51.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 20,
+    "REGION__SALES_TERRITORY_NAME": "INSIDE SALES/ADVANCED",
+    "SALES_DEPT_ID": 3,
+    "SECTOR_ID": 10
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:39:07.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 21,
+    "REGION__SALES_TERRITORY_NAME": "UNFI/WHOLEFOODS",
+    "SALES_DEPT_ID": 3,
+    "SECTOR_ID": 10
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:39:23.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 22,
+    "REGION__SALES_TERRITORY_NAME": "NATURAL-VITAMIN",
+    "SALES_DEPT_ID": 3,
+    "SECTOR_ID": 10
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:39:40.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 23,
+    "REGION__SALES_TERRITORY_NAME": "HEB NAM",
+    "SALES_DEPT_ID": 3,
+    "SECTOR_ID": 11
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:39:52.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 24,
+    "REGION__SALES_TERRITORY_NAME": "MEIJER CTL",
+    "SALES_DEPT_ID": 3,
+    "SECTOR_ID": 11
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:40:03.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 25,
+    "REGION__SALES_TERRITORY_NAME": "PUBLIX TEAM",
+    "SALES_DEPT_ID": 3,
+    "SECTOR_ID": 11
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:40:34.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 26,
+    "REGION__SALES_TERRITORY_NAME": "CTM ALBERTSONS CORP",
+    "SALES_DEPT_ID": 3,
+    "SECTOR_ID": 12
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:41:04.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 27,
+    "REGION__SALES_TERRITORY_NAME": "PET SPECIALTY",
+    "SALES_DEPT_ID": 3,
+    "SECTOR_ID": 12
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:42:04.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 28,
+    "REGION__SALES_TERRITORY_NAME": "RSM NORTHWEST",
+    "SALES_DEPT_ID": 3,
+    "SECTOR_ID": 12
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:44:07.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 29,
+    "REGION__SALES_TERRITORY_NAME": "RSM SOUTHWEST",
+    "SALES_DEPT_ID": 3,
+    "SECTOR_ID": 12
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:44:22.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 30,
+    "REGION__SALES_TERRITORY_NAME": "WINCO CTM",
+    "SALES_DEPT_ID": 3,
+    "SECTOR_ID": 12
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:47:30.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 31,
+    "REGION__SALES_TERRITORY_NAME": "CONVENIENCE",
+    "SALES_DEPT_ID": 3,
+    "SECTOR_ID": 13
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:47:47.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 32,
+    "REGION__SALES_TERRITORY_NAME": "INDEP DRUG CUSTOMERS",
+    "SALES_DEPT_ID": 3,
+    "SECTOR_ID": 13
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:48:26.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 33,
+    "REGION__SALES_TERRITORY_NAME": "WBS TEAM",
+    "SALES_DEPT_ID": 3,
+    "SECTOR_ID": 13
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:48:45.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 34,
+    "REGION__SALES_TERRITORY_NAME": "WHITESPACE DISTRS.",
+    "SALES_DEPT_ID": 3,
+    "SECTOR_ID": 13
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T12:49:40.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 35,
+    "REGION__SALES_TERRITORY_NAME": "RETAIL MISC",
+    "SALES_DEPT_ID": 4,
+    "SECTOR_ID": 14
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-21T12:44:36.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-21T12:44:36.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 38,
+    "REGION__SALES_TERRITORY_NAME": "E-COMMERCE",
+    "SALES_DEPT_ID": 6,
+    "SECTOR_ID": 16
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-21T12:45:21.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-21T12:45:21.000 UTC"
+    },
+    "PARENT_ID": null,
+    "REGION__SALES_TERRITORY_EXTID": null,
+    "REGION__SALES_TERRITORY_ID": 39,
+    "REGION__SALES_TERRITORY_NAME": "KROGER/NATRL-RL INSIDE",
+    "SALES_DEPT_ID": 3,
+    "SECTOR_ID": 10
+  }
+]

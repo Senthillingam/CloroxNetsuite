@@ -1,0 +1,48 @@
+FOr Get::
+
+<soap:Envelope xmlns:ns1="urn:core_2015_1.platform.webservices.netsuite.com" xmlns:ns2="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="urn:messages_2015_1.platform.webservices.netsuite.com" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Header>
+
+        <ns0:passport>
+            <ns1:email>senthillingam.mahalingam@cognizant.com</ns1:email>
+            <ns1:password></ns1:password>
+            <ns1:account>3490392_SB4</ns1:account>
+            <ns1:role/>
+        </ns0:passport>
+    </soap:Header>
+    <soap:Body>
+        <ns0:get>
+            <ns0:baseRef type="promotionCode"
+            	ns2:type="ns1:RecordRef" internalId="1013"/>
+        </ns0:get>
+    </soap:Body>
+</soap:Envelope>  
+
+
+
+
+
+Soap request: getList
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
+               xmlns:ns1="urn:core_2015_1.platform.webservices.netsuite.com"
+               xmlns:ns0="urn:messages_2015_1.platform.webservices.netsuite.com">
+  <soap:Header>
+     <ns0:applicationInfo>
+        <ns0:applicationId>D2FCA0B9-03A4-465F-9B3C-B89BAF80E014</ns0:applicationId>
+     </ns0:applicationInfo>
+     <ns0:passport>
+         <ns1:email>sraghav@outlook.com</ns1:email>
+         <ns1:password>7iron-hidE</ns1:password>
+         <ns1:account>3490392_SB2</ns1:account>
+      </ns0:passport>
+  </soap:Header>
+  <soap:Body>
+     <ns0:getList>
+        <ns0:baseRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  type="transactionBodyCustomField" xsi:type="ns1:CustomizationRef" internalId="3475" />
+        <ns0:baseRef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  type="otherCustomField" xsi:type="ns1:CustomizationRef" internalId="3474" />
+     </ns0:getList>
+  </soap:Body>
+</soap:Envelope>
+
+
+

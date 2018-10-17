@@ -1,0 +1,106 @@
+[
+  {
+    "CUSTOMER_SEGMENT_1_EXTID": null,
+    "CUSTOMER_SEGMENT_1_ID": 1,
+    "CUSTOMER_SEGMENT_1_NAME": "FDM",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:06:29.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_EXTID": null,
+    "CUSTOMER_SEGMENT_1_ID": 2,
+    "CUSTOMER_SEGMENT_1_NAME": "Natural",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:06:40.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_EXTID": null,
+    "CUSTOMER_SEGMENT_1_ID": 4,
+    "CUSTOMER_SEGMENT_1_NAME": "Advanced Naturals",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:06:57.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_EXTID": null,
+    "CUSTOMER_SEGMENT_1_ID": 3,
+    "CUSTOMER_SEGMENT_1_NAME": "eCommerce",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:06:46.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_EXTID": null,
+    "CUSTOMER_SEGMENT_1_ID": 5,
+    "CUSTOMER_SEGMENT_1_NAME": "House",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:07:06.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_EXTID": null,
+    "CUSTOMER_SEGMENT_1_ID": 6,
+    "CUSTOMER_SEGMENT_1_NAME": "Export",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:07:12.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_EXTID": null,
+    "CUSTOMER_SEGMENT_1_ID": 7,
+    "CUSTOMER_SEGMENT_1_NAME": "Miscellaneous",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:07:19.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_EXTID": null,
+    "CUSTOMER_SEGMENT_1_ID": 8,
+    "CUSTOMER_SEGMENT_1_NAME": "Club",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-05-02T03:53:37.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-05-02T03:53:37.000 UTC"
+    },
+    "PARENT_ID": null
+  }
+]

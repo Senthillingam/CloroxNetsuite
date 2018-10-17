@@ -1,0 +1,198 @@
+[
+  {
+    "CUSTOMER_SEGMENT_1_ID": 1,
+    "CUSTOMER_SEGMENT_2_EXTID": null,
+    "CUSTOMER_SEGMENT_2_ID": 1,
+    "CUSTOMER_SEGMENT_2_NAME": "Food",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:07:47.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 1,
+    "CUSTOMER_SEGMENT_2_EXTID": null,
+    "CUSTOMER_SEGMENT_2_ID": 2,
+    "CUSTOMER_SEGMENT_2_NAME": "Drug",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:07:59.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 1,
+    "CUSTOMER_SEGMENT_2_EXTID": null,
+    "CUSTOMER_SEGMENT_2_ID": 3,
+    "CUSTOMER_SEGMENT_2_NAME": "Mass",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:08:12.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 2,
+    "CUSTOMER_SEGMENT_2_EXTID": null,
+    "CUSTOMER_SEGMENT_2_ID": 4,
+    "CUSTOMER_SEGMENT_2_NAME": "Independents",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:08:36.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 2,
+    "CUSTOMER_SEGMENT_2_EXTID": null,
+    "CUSTOMER_SEGMENT_2_ID": 5,
+    "CUSTOMER_SEGMENT_2_NAME": "Chains",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:08:50.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 2,
+    "CUSTOMER_SEGMENT_2_EXTID": null,
+    "CUSTOMER_SEGMENT_2_ID": 6,
+    "CUSTOMER_SEGMENT_2_NAME": "Vitamin",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:09:09.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 2,
+    "CUSTOMER_SEGMENT_2_EXTID": null,
+    "CUSTOMER_SEGMENT_2_ID": 7,
+    "CUSTOMER_SEGMENT_2_NAME": "UNFI",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:09:23.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 3,
+    "CUSTOMER_SEGMENT_2_EXTID": null,
+    "CUSTOMER_SEGMENT_2_ID": 8,
+    "CUSTOMER_SEGMENT_2_NAME": "E-tailers",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:09:30.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 3,
+    "CUSTOMER_SEGMENT_2_EXTID": null,
+    "CUSTOMER_SEGMENT_2_ID": 9,
+    "CUSTOMER_SEGMENT_2_NAME": "Direct To Consumer",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:09:39.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 4,
+    "CUSTOMER_SEGMENT_2_EXTID": null,
+    "CUSTOMER_SEGMENT_2_ID": 10,
+    "CUSTOMER_SEGMENT_2_NAME": "Advanced Naturals",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:09:52.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 5,
+    "CUSTOMER_SEGMENT_2_EXTID": null,
+    "CUSTOMER_SEGMENT_2_ID": 11,
+    "CUSTOMER_SEGMENT_2_NAME": "House",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:10:03.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 6,
+    "CUSTOMER_SEGMENT_2_EXTID": null,
+    "CUSTOMER_SEGMENT_2_ID": 12,
+    "CUSTOMER_SEGMENT_2_NAME": "Export",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:10:13.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 7,
+    "CUSTOMER_SEGMENT_2_EXTID": null,
+    "CUSTOMER_SEGMENT_2_ID": 13,
+    "CUSTOMER_SEGMENT_2_NAME": "Miscellaneous",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:18.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T07:10:28.000 UTC"
+    },
+    "PARENT_ID": null
+  },
+  {
+    "CUSTOMER_SEGMENT_1_ID": 8,
+    "CUSTOMER_SEGMENT_2_EXTID": null,
+    "CUSTOMER_SEGMENT_2_ID": 14,
+    "CUSTOMER_SEGMENT_2_NAME": "Club",
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-05-02T03:53:54.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-05-02T03:53:54.000 UTC"
+    },
+    "PARENT_ID": null
+  }
+]

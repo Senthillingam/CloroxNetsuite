@@ -1,0 +1,67 @@
+[
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T10:58:39.000 UTC"
+    },
+    "PARENT_ID": null,
+    "SALES_DEPT___SALES_TERRITOR_EX": null,
+    "SALES_DEPT___SALES_TERRITOR_ID": 1,
+    "SALES_DEPT___SALES_TERRITOR_NA": "WAL MART/SAMS"
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T10:59:07.000 UTC"
+    },
+    "PARENT_ID": null,
+    "SALES_DEPT___SALES_TERRITOR_EX": null,
+    "SALES_DEPT___SALES_TERRITOR_ID": 4,
+    "SALES_DEPT___SALES_TERRITOR_NA": "RETAIL MISC"
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T10:58:45.000 UTC"
+    },
+    "PARENT_ID": null,
+    "SALES_DEPT___SALES_TERRITOR_EX": null,
+    "SALES_DEPT___SALES_TERRITOR_ID": 2,
+    "SALES_DEPT___SALES_TERRITOR_NA": "SALT"
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-19T13:18:17.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-18T10:58:54.000 UTC"
+    },
+    "PARENT_ID": null,
+    "SALES_DEPT___SALES_TERRITOR_EX": null,
+    "SALES_DEPT___SALES_TERRITOR_ID": 3,
+    "SALES_DEPT___SALES_TERRITOR_NA": "NALT"
+  },
+  {
+    "DATE_CREATED": {
+      "_snaptype_datetime": "2017-04-21T12:41:21.000 UTC"
+    },
+    "IS_INACTIVE": "F",
+    "LAST_MODIFIED_DATE": {
+      "_snaptype_datetime": "2017-04-21T12:41:21.000 UTC"
+    },
+    "PARENT_ID": null,
+    "SALES_DEPT___SALES_TERRITOR_EX": null,
+    "SALES_DEPT___SALES_TERRITOR_ID": 6,
+    "SALES_DEPT___SALES_TERRITOR_NA": "E-COMMERCE TEAM"
+  }
+]
