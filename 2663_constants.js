@@ -19,7 +19,9 @@
  * 2014/05/19  273487         3.00.3       			  Add constants for batch processing scripts, process and status
  * 2014/05/06  282567    	  3.01.02				  Add constant for time options
  * 2014/10/13  312556 		  4.00.4				  Add EP_FLH object
+ * 2018/10/16	Test for Git hub
  */
+
 
 //Mutli-select separator char
 var MULTISELECT_SEPARATOR = String.fromCharCode(5);
